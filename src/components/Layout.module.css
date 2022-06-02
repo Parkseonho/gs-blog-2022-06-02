@@ -1,0 +1,28 @@
+.container {
+  margin: auto;
+  max-width: 500px;
+  font-family: sans-serif;
+}
+.heading {
+  color: hsl(44, 53%, 49%);
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding-left: 0;
+}
+.nav-link-item {
+  padding-right: 2rem;
+}
+.nav-link-text {
+  color: rgb(94, 94, 94);
+  font-size: 30px;
+}
+.nav-link-text:hover {
+  color: hsl(46, 27%, 49%);
+  font-weight: bold;
+}
+.article_bottom{
+  margin-top: 10px;
+}
