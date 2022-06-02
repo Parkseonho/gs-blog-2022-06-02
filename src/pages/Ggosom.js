@@ -1,11 +1,11 @@
 import React from "react";
+import Layout from "../components/Layout";
 
 const Ggosom = () => {
   return (
-    <main>
-      <title>Ggosom Page</title>
-      <h1> 진짜 귀여움 </h1>
-    </main>
+    <Layout pageTitle="Ggosom Page">
+      <p>🐈현재페이지는 꼬솜이 소개 페이지입니다.🐈</p>
+    </Layout>
   );
 };
 

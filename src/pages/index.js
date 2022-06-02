@@ -1,11 +1,11 @@
 import React from "react";
+import Layout from "../components/Layout";
 
 const IndexPage = () => {
   return (
-    <main>
-      <title>Home Page</title>
-      <h1> 방가방가하이루..^%^ </h1>
-    </main>
+    <Layout pageTitle="Home Page">
+      <p>개츠비 블로그, 꼬솜, 홈페이지</p>
+    </Layout>
   );
 };
 
