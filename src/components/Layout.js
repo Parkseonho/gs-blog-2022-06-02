@@ -38,6 +38,11 @@ const Layout = ({ pageTitle, children }) => {
               Ggosom
             </Link>
           </li>
+          <li className={navLinkItem}>
+            <Link to="/blog" className={navLinkText}>
+              Blog
+            </Link>
+          </li>
         </ul>
       </nav>
       <main>
