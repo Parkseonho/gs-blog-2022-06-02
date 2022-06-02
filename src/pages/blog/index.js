@@ -1,9 +1,15 @@
 import * as React from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/Layout";
+import { StaticImage } from "gatsby-plugin-image";
+
 const BlogPage = ({ data }) => {
   return (
     <Layout pageTitle="My Blog Posts">
+      <StaticImage
+        alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+        src="./rd_gs6.jpg"
+      />
       {data.allMdx.nodes.map((node) => (
         <article key={node.id}>
           <h2>
