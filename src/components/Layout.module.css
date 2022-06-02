@@ -4,7 +4,7 @@
   font-family: sans-serif;
 }
 .heading {
-  color: hsl(44, 53%, 49%);
+  color: hsl(249, 13%, 59%);
 }
 .nav-links {
   display: flex;
@@ -16,13 +16,19 @@
   padding-right: 2rem;
 }
 .nav-link-text {
-  color: rgb(94, 94, 94);
+  color: #D4C0B9;
   font-size: 30px;
 }
 .nav-link-text:hover {
-  color: hsl(46, 27%, 49%);
+  color: #615968;
   font-weight: bold;
 }
 .article_bottom{
   margin-top: 10px;
+}
+.site-title {
+  font-size: 3rem;
+  color: hsl(249, 13%, 59%);
+  font-weight: 700;
+  margin: 3rem 0;
 }
